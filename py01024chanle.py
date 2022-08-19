@@ -12,3 +12,4 @@ while t>0:
     if check(s): print("YES")
     else: print("NO")
     t-=1
+    
