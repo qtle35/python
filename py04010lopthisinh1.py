@@ -1,0 +1,6 @@
+ten=input()
+bi=input()
+d1=float(input())
+d2=float(input())
+d3=float(input())
+print("%s %s %.1f"%(ten,bi,(d1+d2+d3)))

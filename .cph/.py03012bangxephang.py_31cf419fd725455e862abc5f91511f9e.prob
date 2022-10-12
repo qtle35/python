@@ -1,0 +1,1 @@
+{"name":"Local: py03012bangxephang","url":"d:\\python\\py03012bangxephang.py","tests":[{"id":1665418727577,"input":"2\nNguyen Van Nam\n168 600\nTran Thi Ngoc\n169 600","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\python\\py03012bangxephang.py","group":"local","local":true}

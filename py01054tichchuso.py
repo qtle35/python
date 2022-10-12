@@ -1,0 +1,8 @@
+t=int(input())
+while t>0:
+    n=input()
+    sum=1
+    for i in range(0,len(n),1):
+        if n[i]!="0": sum*=int(n[i])
+    print(sum)
+    t-=1
