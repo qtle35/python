@@ -7,8 +7,6 @@ class sv:
         self.ten = ten;
         self.dung   = dung;
         self.sub = sub;
-    # def __repr__(self):
-    #     return repr(self.ten,self.dung,self.sub)
     def __str__(self):
         return f'{self.ten} {self.dung} {self.sub}'
 
@@ -25,7 +23,5 @@ while t>0:
     s = input()
     x,y = [int(x) for  x in input().split()]
     a.append(sv(s,x,y))
-multisort(a,(('dung',True),('sub',False),('ten',False)))
+    a = sorted(a, key= lambda sv: (-sv.dung, sv.sub, sv.ten))
 print(*a,sep='\n')
-# for i in range(0,len(a)):
-#     print(a[i].__str__())

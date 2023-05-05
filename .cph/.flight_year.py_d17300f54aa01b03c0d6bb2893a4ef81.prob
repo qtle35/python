@@ -1,0 +1,1 @@
+{"name":"Local: flight_year","url":"d:\\python\\flight_year.py","tests":[{"id":1671002341600,"input":"2\n1949 sum\n1949 avg","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\python\\flight_year.py","group":"local","local":true}
